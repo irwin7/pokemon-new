@@ -7,7 +7,7 @@ let elBtn4 = document.querySelector('.btn-3');
 let elBtn5 = document.querySelector('.btn-4');
 let elBtns = document.querySelectorAll('.site-hero__btn');
 findNum(1,20);
-
+console.log(elBtns);
 elBtn1.addEventListener('click', ()=>{
     clearClass();
     elBtn1.classList.add('btn-active')
